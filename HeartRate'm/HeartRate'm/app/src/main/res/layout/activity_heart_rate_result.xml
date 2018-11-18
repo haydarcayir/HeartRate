@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:id="@+id/relative"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginTop="50dp">
+
+        <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:background="#CEE8FA">
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_column="1"
+                    android:layout_weight="1"
+                    android:background="@drawable/layout_border"
+                    android:gravity="center"
+                    android:text="Age(Year)"
+                    android:textColor="#2D527C"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+
+                    android:layout_column="2"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:background="@drawable/layout_border"
+                    android:gravity="center"
+                    android:text="Beats per munite"
+                    android:textColor="#2D527C"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_column="1"
+                    android:layout_gravity="left"
+                    android:layout_weight="1"
+                    android:background="@drawable/layout_border"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="5dp"
+                    android:text="Babies"
+                    android:textColor="#2D527C"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_column="2"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:background="@drawable/layout_border"
+                    android:gravity="center"
+                    android:text="100-160"
+                    android:textColor="#2D527C"
+                    android:textSize="12sp" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_column="1"
+                    android:layout_gravity="left"
+                    android:layout_weight="1"
+                    android:background="@drawable/layout_border"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="5dp"
+                    android:text="Children 1 to 10"
+                    android:textColor="#2D527C"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_column="2"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:background="@drawable/layout_border"
+                    android:gravity="center"
+                    android:text="70-116"
+                    android:textColor="#2D527C"
+                    android:textSize="12sp" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_column="1"
+                    android:layout_gravity="left"
+                    android:layout_weight="1"
+                    android:background="@drawable/layout_border"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="5dp"
+                    android:text="Children 11 to 17"
+                    android:textColor="#2D527C"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_column="2"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:background="@drawable/layout_border"
+                    android:gravity="center"
+                    android:text="60-100"
+                    android:textColor="#2D527C"
+                    android:textSize="12sp" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_column="1"
+                    android:layout_gravity="left"
+                    android:layout_weight="1"
+                    android:background="@drawable/layout_border"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="5dp"
+                    android:text="Adults"
+                    android:textColor="#2D527C"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_column="2"
+                    android:layout_weight="1"
+                    android:background="@drawable/layout_border"
+                    android:gravity="center"
+                    android:text="60-100"
+                    android:textColor="#2D527C"
+                    android:textSize="12sp" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_column="1"
+                    android:layout_gravity="left"
+                    android:layout_weight="1"
+                    android:background="@drawable/layout_border"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="5dp"
+                    android:text="Well-conditioned athletes"
+                    android:textColor="#2D527C"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_column="2"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:background="@drawable/layout_border"
+                    android:gravity="center"
+                    android:text="40-60"
+                    android:textColor="#2D527C"
+                    android:textSize="12sp" />
+            </TableRow>
+
+
+        </TableLayout>
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/result_relativ"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relative"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/layout_border">
+
+        <TextView
+            android:id="@+id/tum_sonuclar"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:text="haydar"
+            android:textSize="18sp"
+            android:layout_centerHorizontal="true"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:id="@+id/result_linear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp">
+
+            <TextView
+                android:id="@+id/heart_rate_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="Your Heart Rate"
+                android:textColor="#2D527C"
+                android:textSize="32sp" />
+
+            <RelativeLayout
+                android:id="@+id/result_relativ_result"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/heart_rate_text">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/heart" />
+
+
+                <TextView
+                    android:id="@+id/heart_rate_result"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="58"
+                    android:textColor="#2D527C"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/see_ppg_signal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/result_linear"
+            android:layout_centerHorizontal="true"
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="5dp"
+            android:text="See PPG Signals"
+            android:textColor="@android:color/white"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/result_name"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/see_ppg_signal"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/layout_border_2"
+            android:hint="Please enter your name"
+            android:paddingLeft="10dp" />
+
+        <Button
+            android:id="@+id/result_button_store"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/result_name"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_shape"
+            android:text="STORE"
+            android:textColor="#2D527C" />
+
+        <ImageView
+            android:id="@+id/result_home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/result_name"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="17.5dp"
+            android:layout_toRightOf="@+id/result_button_store"
+            android:background="@drawable/house" />
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

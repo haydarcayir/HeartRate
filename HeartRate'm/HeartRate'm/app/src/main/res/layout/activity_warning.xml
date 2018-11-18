@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@color/colorPrimary"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/warning_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/leftarrow" />
+
+    <RelativeLayout
+        android:id="@+id/warning_relative"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/warning_image"
+        android:layout_marginTop="100dp">
+
+        <ImageView
+            android:id="@+id/exclamation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/exclamation" />
+
+
+        <TextView
+            android:id="@+id/text_finger_position"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/exclamation"
+            android:layout_marginLeft="3dp"
+            android:layout_marginTop="4dp"
+            android:layout_toRightOf="@+id/exclamation"
+            android:text="Finger Position"
+            android:textColor="#E3E7F2"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/warning_relative"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="Please place the tip of your finger gently on the camera"
+        android:textColor="#E3E7F2" />
+
+    <ImageView
+        android:id="@+id/warning_image"
+        android:layout_width="200dp"
+        android:layout_height="160dp"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:background="@drawable/indir" />
+
+    <Button
+        android:id="@+id/warning_start_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/warning_image"
+        android:layout_alignStart="@+id/warning_image"
+        android:layout_below="@+id/warning_image"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/button_shape"
+        android:text="Start"
+        android:textColor="#2D527C"
+        android:textStyle="bold" />
+
+</RelativeLayout>
